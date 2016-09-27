@@ -37,7 +37,7 @@ function sumRecursion(list) {
 }
 
 function sumTheSimpleWay(list) {
-  const sum = _.reduce(list, function (memo, num) { return memo + num; }, 0);
+  const sum = _.reduce(list, function summation(memo, num) { return memo + num; }, 0);
   return sum;
 }
 
